@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9566C85F19A8D7B50071359C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9566C85E19A8D7B50071359C /* README.md */; };
+		95B83EED19A1042800FC60F8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B83EEC19A1042800FC60F8 /* Cocoa.framework */; };
+		95B83EF719A1042800FC60F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95B83EF519A1042800FC60F8 /* InfoPlist.strings */; };
+		95B83EF919A1042800FC60F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B83EF819A1042800FC60F8 /* main.m */; };
+		95B83EFD19A1042800FC60F8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 95B83EFB19A1042800FC60F8 /* Credits.rtf */; };
+		95B83F0019A1042800FC60F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B83EFF19A1042800FC60F8 /* AppDelegate.m */; };
+		95B83F0319A1042900FC60F8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95B83F0119A1042900FC60F8 /* MainMenu.xib */; };
+		95B83F0519A1042900FC60F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B83F0419A1042900FC60F8 /* Images.xcassets */; };
+		95B83F0C19A1042900FC60F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B83F0B19A1042900FC60F8 /* XCTest.framework */; };
+		95B83F0D19A1042900FC60F8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B83EEC19A1042800FC60F8 /* Cocoa.framework */; };
+		95B83F1519A1042900FC60F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95B83F1319A1042900FC60F8 /* InfoPlist.strings */; };
+		95B83F1719A1042900FC60F8 /* VPNC_FrontendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B83F1619A1042900FC60F8 /* VPNC_FrontendTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95B83F0E19A1042900FC60F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95B83EE119A1042800FC60F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95B83EE819A1042800FC60F8;
+			remoteInfo = "VPNC Frontend";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9566C85E19A8D7B50071359C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		95B83EE919A1042800FC60F8 /* VPNC Frontend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VPNC Frontend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B83EEC19A1042800FC60F8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		95B83EEF19A1042800FC60F8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		95B83EF019A1042800FC60F8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		95B83EF119A1042800FC60F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95B83EF419A1042800FC60F8 /* VPNC Frontend-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VPNC Frontend-Info.plist"; sourceTree = "<group>"; };
+		95B83EF619A1042800FC60F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95B83EF819A1042800FC60F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95B83EFA19A1042800FC60F8 /* VPNC Frontend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VPNC Frontend-Prefix.pch"; sourceTree = "<group>"; };
+		95B83EFC19A1042800FC60F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		95B83EFE19A1042800FC60F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95B83EFF19A1042800FC60F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95B83F0219A1042900FC60F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		95B83F0419A1042900FC60F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		95B83F0A19A1042900FC60F8 /* VPNC FrontendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VPNC FrontendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B83F0B19A1042900FC60F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		95B83F1219A1042900FC60F8 /* VPNC FrontendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VPNC FrontendTests-Info.plist"; sourceTree = "<group>"; };
+		95B83F1419A1042900FC60F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95B83F1619A1042900FC60F8 /* VPNC_FrontendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPNC_FrontendTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95B83EE619A1042800FC60F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B83EED19A1042800FC60F8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B83F0719A1042900FC60F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B83F0D19A1042900FC60F8 /* Cocoa.framework in Frameworks */,
+				95B83F0C19A1042900FC60F8 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95B83EE019A1042800FC60F8 = {
+			isa = PBXGroup;
+			children = (
+				9566C85E19A8D7B50071359C /* README.md */,
+				95B83EF219A1042800FC60F8 /* VPNC Frontend */,
+				95B83F1019A1042900FC60F8 /* VPNC FrontendTests */,
+				95B83EEB19A1042800FC60F8 /* Frameworks */,
+				95B83EEA19A1042800FC60F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95B83EEA19A1042800FC60F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95B83EE919A1042800FC60F8 /* VPNC Frontend.app */,
+				95B83F0A19A1042900FC60F8 /* VPNC FrontendTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95B83EEB19A1042800FC60F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95B83EEC19A1042800FC60F8 /* Cocoa.framework */,
+				95B83F0B19A1042900FC60F8 /* XCTest.framework */,
+				95B83EEE19A1042800FC60F8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95B83EEE19A1042800FC60F8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95B83EEF19A1042800FC60F8 /* AppKit.framework */,
+				95B83EF019A1042800FC60F8 /* CoreData.framework */,
+				95B83EF119A1042800FC60F8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		95B83EF219A1042800FC60F8 /* VPNC Frontend */ = {
+			isa = PBXGroup;
+			children = (
+				95B83EFE19A1042800FC60F8 /* AppDelegate.h */,
+				95B83EFF19A1042800FC60F8 /* AppDelegate.m */,
+				95B83F0119A1042900FC60F8 /* MainMenu.xib */,
+				95B83F0419A1042900FC60F8 /* Images.xcassets */,
+				95B83EF319A1042800FC60F8 /* Supporting Files */,
+			);
+			path = "VPNC Frontend";
+			sourceTree = "<group>";
+		};
+		95B83EF319A1042800FC60F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95B83EF419A1042800FC60F8 /* VPNC Frontend-Info.plist */,
+				95B83EF519A1042800FC60F8 /* InfoPlist.strings */,
+				95B83EF819A1042800FC60F8 /* main.m */,
+				95B83EFA19A1042800FC60F8 /* VPNC Frontend-Prefix.pch */,
+				95B83EFB19A1042800FC60F8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95B83F1019A1042900FC60F8 /* VPNC FrontendTests */ = {
+			isa = PBXGroup;
+			children = (
+				95B83F1619A1042900FC60F8 /* VPNC_FrontendTests.m */,
+				95B83F1119A1042900FC60F8 /* Supporting Files */,
+			);
+			path = "VPNC FrontendTests";
+			sourceTree = "<group>";
+		};
+		95B83F1119A1042900FC60F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95B83F1219A1042900FC60F8 /* VPNC FrontendTests-Info.plist */,
+				95B83F1319A1042900FC60F8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95B83EE819A1042800FC60F8 /* VPNC Frontend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B83F1A19A1042900FC60F8 /* Build configuration list for PBXNativeTarget "VPNC Frontend" */;
+			buildPhases = (
+				95B83EE519A1042800FC60F8 /* Sources */,
+				95B83EE619A1042800FC60F8 /* Frameworks */,
+				95B83EE719A1042800FC60F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VPNC Frontend";
+			productName = "VPNC Frontend";
+			productReference = 95B83EE919A1042800FC60F8 /* VPNC Frontend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95B83F0919A1042900FC60F8 /* VPNC FrontendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B83F1D19A1042900FC60F8 /* Build configuration list for PBXNativeTarget "VPNC FrontendTests" */;
+			buildPhases = (
+				95B83F0619A1042900FC60F8 /* Sources */,
+				95B83F0719A1042900FC60F8 /* Frameworks */,
+				95B83F0819A1042900FC60F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95B83F0F19A1042900FC60F8 /* PBXTargetDependency */,
+			);
+			name = "VPNC FrontendTests";
+			productName = "VPNC FrontendTests";
+			productReference = 95B83F0A19A1042900FC60F8 /* VPNC FrontendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95B83EE119A1042800FC60F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Elian;
+				TargetAttributes = {
+					95B83F0919A1042900FC60F8 = {
+						TestTargetID = 95B83EE819A1042800FC60F8;
+					};
+				};
+			};
+			buildConfigurationList = 95B83EE419A1042800FC60F8 /* Build configuration list for PBXProject "VPNC Frontend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95B83EE019A1042800FC60F8;
+			productRefGroup = 95B83EEA19A1042800FC60F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95B83EE819A1042800FC60F8 /* VPNC Frontend */,
+				95B83F0919A1042900FC60F8 /* VPNC FrontendTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95B83EE719A1042800FC60F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B83EF719A1042800FC60F8 /* InfoPlist.strings in Resources */,
+				95B83F0519A1042900FC60F8 /* Images.xcassets in Resources */,
+				9566C85F19A8D7B50071359C /* README.md in Resources */,
+				95B83EFD19A1042800FC60F8 /* Credits.rtf in Resources */,
+				95B83F0319A1042900FC60F8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B83F0819A1042900FC60F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B83F1519A1042900FC60F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95B83EE519A1042800FC60F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B83F0019A1042800FC60F8 /* AppDelegate.m in Sources */,
+				95B83EF919A1042800FC60F8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B83F0619A1042900FC60F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B83F1719A1042900FC60F8 /* VPNC_FrontendTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95B83F0F19A1042900FC60F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95B83EE819A1042800FC60F8 /* VPNC Frontend */;
+			targetProxy = 95B83F0E19A1042900FC60F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95B83EF519A1042800FC60F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95B83EF619A1042800FC60F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		95B83EFB19A1042800FC60F8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95B83EFC19A1042800FC60F8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		95B83F0119A1042900FC60F8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95B83F0219A1042900FC60F8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		95B83F1319A1042900FC60F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95B83F1419A1042900FC60F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95B83F1819A1042900FC60F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		95B83F1919A1042900FC60F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		95B83F1B19A1042900FC60F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPNC Frontend/VPNC Frontend-Prefix.pch";
+				INFOPLIST_FILE = "VPNC Frontend/VPNC Frontend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		95B83F1C19A1042900FC60F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPNC Frontend/VPNC Frontend-Prefix.pch";
+				INFOPLIST_FILE = "VPNC Frontend/VPNC Frontend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		95B83F1E19A1042900FC60F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VPNC Frontend.app/Contents/MacOS/VPNC Frontend";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPNC Frontend/VPNC Frontend-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VPNC FrontendTests/VPNC FrontendTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		95B83F1F19A1042900FC60F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VPNC Frontend.app/Contents/MacOS/VPNC Frontend";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPNC Frontend/VPNC Frontend-Prefix.pch";
+				INFOPLIST_FILE = "VPNC FrontendTests/VPNC FrontendTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95B83EE419A1042800FC60F8 /* Build configuration list for PBXProject "VPNC Frontend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B83F1819A1042900FC60F8 /* Debug */,
+				95B83F1919A1042900FC60F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B83F1A19A1042900FC60F8 /* Build configuration list for PBXNativeTarget "VPNC Frontend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B83F1B19A1042900FC60F8 /* Debug */,
+				95B83F1C19A1042900FC60F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B83F1D19A1042900FC60F8 /* Build configuration list for PBXNativeTarget "VPNC FrontendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B83F1E19A1042900FC60F8 /* Debug */,
+				95B83F1F19A1042900FC60F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95B83EE119A1042800FC60F8 /* Project object */;
+}
