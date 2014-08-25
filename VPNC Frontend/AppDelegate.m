@@ -191,7 +191,7 @@
             NSUserNotification *notification = [[NSUserNotification alloc] init];
             [notification setActionButtonTitle:@"Reconnect!"];
             [notification setHasActionButton: YES];
-            notification.informativeText = @"VPNC disconnected";
+            notification.informativeText = [NSString stringWithFormat: @"Disconnected from: %@", _vpnStatus];
             notification.title = @"VPNC Frontend";
             
             NSDictionary *notificationUserInfo = @{
